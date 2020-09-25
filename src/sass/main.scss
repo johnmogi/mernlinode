@@ -1,0 +1,38 @@
+$resetPad : 0;
+$dir: rtl;
+$right:right;
+$font: 'Assistant', arial, sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+.navbar {    box-shadow: none;
+}
+.nav-link, .nav-item .btn{
+        font-size: 1.5rem;
+    }
+
+body{
+    font-family: $font;
+    direction:$dir;
+    text-align:$right;
+}
+h3.white-text {
+    line-height: 0;
+    display: block;
+}
+.container-fluid{
+   padding: $resetPad ;
+}
+.view {
+    height: initial !important;
+}
+#stage{
+    .row{
+    padding-top:25vh
+}
+}
+
+#parallaxintro .view {
+    min-height: 100vh !important;
+    height: unset !important;
+  }
